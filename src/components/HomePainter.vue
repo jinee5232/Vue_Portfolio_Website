@@ -101,7 +101,7 @@ export default {
   },
   methods: {
     fetchPortfolioData() {
-      fetch("/portfolio2.json")
+      fetch("/Vue_Portfolio_Website/portfolio2.json")
         .then((response) => response.json())
         .then((data) => {
           const paintingData = data.find((item) => item.Bigtype === "繪畫");

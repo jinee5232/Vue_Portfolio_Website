@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     fetchWebData() {
-      fetch("/portfolio.json")
+      fetch("/Vue_Portfolio_Website/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
           this.PortfolioData = data;

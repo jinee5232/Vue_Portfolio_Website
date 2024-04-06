@@ -26,7 +26,7 @@ export default {
     fetchPortfolioData() {
       const routeType = this.type;
       console.log(routeType);
-      fetch("/portfolio2.json")
+      fetch("/Vue_Portfolio_Website/portfolio2.json")
         .then((response) => response.json())
         .then((data) => {
           const paintingData = data.find((item) => item.Bigtype === "繪畫");
@@ -41,21 +41,6 @@ export default {
         })
         .catch((error) => {
           console.error("Error fetching web data:", error);
-        });
-    },
-    fetchData() {
-      // 根据路由参数加载对应的JSON数据
-      const routeType = this.type;
-      // 发送请求获取数据
-      // 这里假设使用axios发送请求
-      fetch;
-      axios
-        .get(`/api/${routeType}`)
-        .then((response) => {
-          this.items = response.data;
-        })
-        .catch((error) => {
-          console.error("Error fetching data:", error);
         });
     },
   },

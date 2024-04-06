@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     fetchWebsiteData() {
-      fetch("/portfolio2.json")
+      fetch("/Vue_Portfolio_Website/portfolio2.json")
         .then((response) => response.json())
         .then((data) => {
           const WebData = data.find((item) => item.Bigtype === "網頁");
