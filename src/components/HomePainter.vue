@@ -293,7 +293,7 @@ export default {
       padding: 15% 0;
       .card {
         height: 100%;
-        width: calc((90vh - 90px) / 2);
+        width: calc((80vh - 90px) * 0.7 / 2);
         .card-imgbox {
           height: 100%;
           display: flex;
