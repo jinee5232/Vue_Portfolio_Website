@@ -228,6 +228,11 @@ export default {
     .headerLogo {
       padding: 30px 0px;
     }
+    nav {
+      ul {
+        display: none;
+      }
+    }
   }
 }
 /* 平板電腦尺寸（768px 到 1023px） */
