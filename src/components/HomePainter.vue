@@ -118,7 +118,7 @@ export default {
 </script>
 <style scoped>
 .group {
-  height: calc(80vh - 90px);
+  height: 550px;
   width: 100vw;
   margin: 0 auto;
   position: relative;
@@ -221,7 +221,7 @@ export default {
     height: 50%;
     .card {
       height: 100%;
-      width: calc((90vh - 90px) / 2);
+      width: 350px;
       .card-imgbox {
         height: 100%;
         display: flex;
@@ -292,8 +292,8 @@ export default {
       height: 70%;
       padding: 15% 0;
       .card {
-        height: 90%;
-        width: 300px;
+        height: 300px;
+        width: 380px;
         .card-imgbox {
           height: 100%;
           display: flex;
