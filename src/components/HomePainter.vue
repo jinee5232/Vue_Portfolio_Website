@@ -294,18 +294,6 @@ export default {
       .card {
         height: 300px;
         width: 380px;
-        .card-imgbox {
-          height: 100%;
-          display: flex;
-          justify-content: center;
-          img {
-            display: block;
-            height: 100%;
-            object-fit: cover;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-              rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-          }
-        }
       }
     }
   }
