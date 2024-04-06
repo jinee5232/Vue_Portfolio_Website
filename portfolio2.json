@@ -1,0 +1,582 @@
+[
+    {
+        "Bigtype": "網頁",
+        "Content": [
+            {
+                "name": "立委形象網站",
+                "url": "https://jinee5232.github.io/Vue_LegislatorProfile_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "javaScript",
+                    "json",
+                    "vue.js",
+                    "swiper"
+                ],
+                "startdate": "2023/11",
+                "enddate": "至今",
+                "updatetime": "2024/3",
+                "state": "後續更新",
+                "img": "./images/Legislator_web.PNG",
+                "info": "立委網站"
+            },
+            {
+                "name": "總統開票網站",
+                "url": "https://jinee5232.github.io/React_ElectionResults_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "javaScript",
+                    "json",
+                    "react.js",
+                    "swiper"
+                ],
+                "startdate": "2023/11",
+                "enddate": "至今",
+                "updatetime": "2024/2",
+                "state": "後續更新",
+                "img": "./images/Election_web.PNG",
+                "info": "總統開票網站"
+            },
+            {
+                "name": "常用工具網站",
+                "url": "https://jinee5232.github.io/Vue_Tool_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "javaScript",
+                    "RWD",
+                    "json",
+                    "vue.js",
+                    "swiper"
+                ],
+                "startdate": "2024/2",
+                "enddate": "至今",
+                "updatetime": "2024/2",
+                "state": "後續更新",
+                "img": "./images/Tool_web.png",
+                "info": "工具網站"
+            },
+            {
+                "name": "Pexel 圖片網站",
+                "url": "https://jinee5232.github.io/React_PexelsAPI_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "scss",
+                    "javaScript",
+                    "RWD",
+                    "react.js",
+                    "swiper"
+                ],
+                "API": "Pexel_API",
+                "startdate": "2024/2",
+                "enddate": "至今",
+                "updatetime": "2024/2",
+                "state": "後續更新",
+                "img": "./images/pexel_web.png",
+                "info": "工具網站"
+            },
+            {
+                "name": "伯朗咖啡網站",
+                "url": "https://jinee5232.github.io/React_BrownCoffee_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "javaScript",
+                    "RWD",
+                    "Bootstrap",
+                    "react.js"
+                ],
+                "startdate": "2024/1",
+                "enddate": "至今",
+                "updatetime": "2024/4",
+                "state": "後續更新",
+                "img": "./images/BrownCoffee_Web.png",
+                "info": "工具網站"
+            },
+            {
+                "name": "Weather查詢網站",
+                "url": "https://jinee5232.github.io/Vue_WeatherAPI_en_Website/",
+                "Smalltype": [
+                    "html",
+                    "css",
+                    "javaScript",
+                    "RWD",
+                    "vue.js"
+                ],
+                "API": "Weather_API",
+                "startdate": "2024/3",
+                "enddate": "至今",
+                "updatetime": "2024/4",
+                "state": "後續更新",
+                "img": "./images/WeatherAPI_Web.png",
+                "info": "工具網站"
+            }
+        ]
+    },
+    {
+        "Bigtype": "繪畫",
+        "Content": [
+            {
+                "Sectype": "poster",
+                "Infotype": "此作品集是收錄了求學期間為學校系上設計的海報作品，呈現我對設計的熱情。透過自學illstrator的過程，並秉持多看多聽的原則，對設計和視覺效果的深入理解，我努力將校內海報提升到一個新的水平，讓其更吸引人且有意義。雖然缺乏實際案例的經驗，但我對每個作品都投入了心力，希望能展示出我的設計理念和技能。",
+                "Paint": [
+                    {
+                        "name": "海報1",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster1.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報2",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster2.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報3",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster3.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報4",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster4.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報5",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster5.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報6",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster6.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報9",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster9.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報10",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster10.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "海報11",
+                        "url": "",
+                        "Smalltype": [
+                            "海報",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/poster11.png",
+                        "info": "工具網站"
+                    }
+                ]
+            },
+            {
+                "Sectype": "procreate",
+                "Infotype": "此作品集是透過Procreate，手繪出情侶出遊的似顏繪及無臉畫，捕捉他們甜蜜的時刻，展現愛情的溫暖和幸福的氛圍；我喜歡畫下每對情侶的開心合照，更喜歡在繪製的過程中，研究新技法來完成每一個作品",
+                "Paint": [
+                    {
+                        "name": "無臉畫01",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/1.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫02",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/2.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫04",
+                        "url": "",
+                        "Bigtype": "繪畫",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/4.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫05",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/5.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫06",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/6.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫07",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/7.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫08",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/8.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫09",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/9.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫10",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/10.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫11",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/11.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫12",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/12.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫13",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/13.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫14",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/14.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "無臉畫15",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/15.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "似顏繪1",
+                        "url": "",
+                        "Smalltype": [
+                            "無臉畫",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/16.png",
+                        "info": "工具網站"
+                    }
+                ]
+            },
+            {
+                "Sectype": "Logo&Icon",
+                "Infotype": "此作品集是收錄了求學期間為學校系上社團實驗室設計的Logo作品，呈現我對設計的熱情。透過研究每個Logo商標背後的故事，試著貼合每個主題，並製作出有內涵的Logo",
+                "Paint": [
+                    {
+                        "name": "Logo01",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "enddate": "至今",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo1.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo02",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo2.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo03",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo3.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo04",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo4.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo05",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo5.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo06",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo6.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo07",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo7.png",
+                        "info": "工具網站"
+                    },
+                    {
+                        "name": "Logo08",
+                        "url": "",
+                        "Smalltype": [
+                            "Logo",
+                            "illustrator"
+                        ],
+                        "startdate": "2023/11",
+                        "updatetime": "2024/2",
+                        "state": "已結束",
+                        "img": "./images/Logo8.png",
+                        "info": "工具網站"
+                    }
+                ]
+            }
+        ]
+    }
+]
