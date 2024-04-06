@@ -221,7 +221,7 @@ export default {
     height: 50%;
     .card {
       height: 100%;
-      width: calc((90vh - 90px) / 2);
+      width: calc((80vh - 90px) / 2);
       .card-imgbox {
         height: 100%;
         display: flex;
@@ -291,6 +291,22 @@ export default {
     .mySwiper {
       height: 70%;
       padding: 15% 0;
+      .card {
+        height: 100%;
+        width: calc((90vh - 90px) / 2);
+        .card-imgbox {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          img {
+            display: block;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+              rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          }
+        }
+      }
     }
   }
 }
