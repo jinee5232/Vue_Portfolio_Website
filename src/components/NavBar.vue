@@ -2,7 +2,7 @@
   <div class="header">
     <img class="headerLogo" src="/Logo.svg" alt="Logo" />
     <nav>
-      <ul v-if="mobileWidth === false">
+      <ul>
         <li>
           <router-link to="/">Home</router-link>
         </li>
@@ -16,7 +16,6 @@
         id="hamburgerBox"
         :class="{ open: hamOpen }"
         @click="hamOpen = !hamOpen"
-        v-if="mobileWidth"
       >
         <span></span><span></span><span></span>
       </div>
@@ -113,7 +112,7 @@ export default {
     position: relative;
     width: 50px;
     height: 50px;
-    display: flex;
+    display: none;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -228,6 +227,9 @@ export default {
     .headerLogo {
       padding: 30px 0px;
     }
+    #hamburgerBox {
+      display: flex;
+    }
     nav {
       ul {
         display: none;
@@ -236,8 +238,10 @@ export default {
   }
 }
 /* 平板電腦尺寸（768px 到 1023px） */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* 樣式內容 */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    padding: 0 20px;
+  }
 }
 /* 筆記型電腦尺寸（1024px 到 1279px） */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
