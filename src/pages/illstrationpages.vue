@@ -47,21 +47,6 @@ export default {};
     position: relative;
     margin-right: 2rem;
 
-    &:hover {
-      width: 500px;
-      img {
-        /* filter: grayscale(-10%); */
-      }
-      .Illstion_Info {
-        height: 60%;
-        color: var(--primary-color);
-        background-image: linear-gradient(
-          to top,
-          var(--secondary-color) 20%,
-          transparent 100%
-        );
-      }
-    }
     img {
       width: 100%;
       height: 100%;
@@ -115,6 +100,27 @@ export default {};
         }
         span {
           display: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 769px) {
+  .Illstion_bg {
+    .IllstionType {
+      &:hover {
+        width: 500px;
+        img {
+          /* filter: grayscale(-10%); */
+        }
+        .Illstion_Info {
+          height: 60%;
+          color: var(--primary-color);
+          background-image: linear-gradient(
+            to top,
+            var(--secondary-color) 20%,
+            transparent 100%
+          );
         }
       }
     }
