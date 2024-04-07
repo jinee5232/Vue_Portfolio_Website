@@ -8,7 +8,9 @@
         ref="cards"
       >
         <div class="card-imgbox">
-          <img :src="item.img" alt="Card Image" class="card-img" />
+          <a :href="item.url" target="_blank">
+            <img :src="item.img" alt="Card Image" class="card-img"
+          /></a>
           <div class="opacity_div">
             <div class="img_date">{{ item.startdate }}-{{ item.enddate }}</div>
           </div>
