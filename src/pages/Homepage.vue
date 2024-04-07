@@ -42,4 +42,14 @@ export default {
     align-items: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  .Home-bg {
+    .homeBlock {
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
 </style>

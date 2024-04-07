@@ -107,7 +107,7 @@ p {
   }
   p {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
   }
 }
 /* 平板電腦尺寸（768px 到 1023px） */
