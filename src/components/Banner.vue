@@ -10,15 +10,17 @@
       </router-link>
     </div>
 
-    <Vue3Marquee class="mySwiper" :duration="150">
-      <swiper-slide
-        v-for="(item, index) in PortfolioData"
-        :key="index"
-        class="pic-container"
-      >
-        <img :src="item.img" :alt="item.name"
-      /></swiper-slide>
-    </Vue3Marquee>
+    <div class="mySwiper">
+      <Vue3Marquee :duration="150">
+        <swiper-slide
+          v-for="(item, index) in PortfolioData"
+          :key="index"
+          class="pic-container"
+        >
+          <img :src="item.img" :alt="item.name"
+        /></swiper-slide>
+      </Vue3Marquee>
+    </div>
   </div>
 </template>
 
