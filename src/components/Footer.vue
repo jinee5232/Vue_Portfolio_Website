@@ -41,6 +41,9 @@ export default {
     font-size: 5rem;
     position: relative;
     cursor: pointer;
+    animation: shadowAnima 1.5s infinite;
+    animation-direction: alternate;
+    text-shadow: 3px 4px 7px rgba(255, 255, 255, 0.8);
 
     &::after {
       content: "";
@@ -80,6 +83,14 @@ export default {
         left: 161%;
       }
     }
+  }
+}
+@keyframes shadowAnima {
+  0% {
+    text-shadow: 3px 4px 7px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 3px 4px 7px rgba(255, 255, 255, 0);
   }
 }
 @media only screen and (max-width: 768px) {
