@@ -64,10 +64,14 @@ export default {
 };
 </script>
 <style scoped>
+*:focus {
+  outline: none;
+}
 * {
   box-sizing: border-box;
   transition: all 0.5s ease-out;
 }
+
 .header {
   height: 100px;
   width: 100vw;

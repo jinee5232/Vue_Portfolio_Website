@@ -52,6 +52,9 @@ export default {
   --accent-color: #ffbb98;
   --background-color: #31334e; */
 }
+*:focus {
+  outline: none;
+}
 a {
   text-decoration: none;
   outline: none;
