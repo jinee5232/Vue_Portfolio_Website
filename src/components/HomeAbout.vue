@@ -30,9 +30,11 @@ export default {};
 <style scoped>
 .About_bg {
   padding: 2rem;
-  width: 60vw;
+  width: 100vw;
   display: flex;
+  padding: 0 6rem;
   flex-direction: column;
+  justify-content: left;
   marfin-right: auto;
 }
 .About_content {
@@ -66,8 +68,10 @@ export default {};
 @media only screen and (max-width: 768px) {
   .About_bg {
     width: 100vw;
+    padding: 0 1rem;
     .About_content {
       margin: 2rem 0;
+
       .contentA {
         display: none;
       }
@@ -87,6 +91,7 @@ export default {};
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .About_bg {
     width: 90vw;
+    padding: 0;
   }
 }
 /* 筆記型電腦尺寸（1024px 到 1279px） */

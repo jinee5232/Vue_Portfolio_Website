@@ -65,7 +65,7 @@ export default {
   text-align: center;
   width: 100vw;
   padding-top: 5rem;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
   .BannerTitle {
     box-sizing: border-box;
     display: flex;
