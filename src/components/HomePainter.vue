@@ -255,6 +255,7 @@ export default {
 }
 @media only screen and (max-width: 768px) {
   .group {
+    height: 500px;
     .card-info {
       display: none;
     }
@@ -272,14 +273,14 @@ export default {
     .group_title {
       padding: 0 5vw;
       span:nth-child(1) {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 3rem;
         font-weight: normal;
       }
       span:nth-child(2) {
         width: 100%;
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
         font-weight: bolder;
       }
       .span2 {
@@ -289,10 +290,11 @@ export default {
       }
     }
     .mySwiper {
-      height: 70%;
-      padding: 15% 0;
+      height: 60%;
+      padding: 5% 0;
+
       .card {
-        height: 300px;
+        height: 100%;
         width: 380px;
       }
     }
