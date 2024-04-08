@@ -292,10 +292,10 @@ export default {
     .mySwiper {
       height: 60%;
       padding: 5% 0;
-
       .card {
         height: 100%;
-        width: 380px;
+        width: 100vw;
+        max-width: 380px;
       }
     }
   }
