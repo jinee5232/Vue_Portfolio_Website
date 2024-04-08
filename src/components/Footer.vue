@@ -41,6 +41,7 @@ export default {
     font-size: 5rem;
     position: relative;
     cursor: pointer;
+
     &::after {
       content: "";
       position: absolute;
@@ -68,6 +69,7 @@ export default {
       opacity: 0;
     }
     &:hover {
+      color: rgba(255, 255, 255, 0.5);
       &::after {
         transform: scaleX(3);
         z-index: 5;
