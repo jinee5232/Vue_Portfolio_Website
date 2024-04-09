@@ -118,7 +118,7 @@ export default {
   width: 100vw;
   display: flex;
   height: calc(100vh - 90px);
-  padding: 5rem 10%;
+  padding: 3rem 10%;
   padding-bottom: 0;
   justify-content: space-between;
   .InfoBtn {
@@ -164,7 +164,7 @@ export default {
     }
     .Info_head {
       width: 70%;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       img {
         width: 90%;
         display: block;
