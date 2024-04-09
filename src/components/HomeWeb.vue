@@ -16,7 +16,7 @@
       >
         <a :href="item.url" target="_blank">
           <div class="card-imgbox">
-            <img :src="item.img" alt="Card Image" class="card-img" />
+            <img v-lazy="item.img" alt="Card Image" class="card-img" />
             <div class="opacity_div">
               <div class="img_date">
                 {{ item.startdate }}-{{ item.enddate }}

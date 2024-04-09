@@ -2,7 +2,7 @@
   <div class="personal_Info">
     <div class="Info_sidebar">
       <div class="Info_head">
-        <img src="/images/head.png" alt="" />
+        <img v-lazy="'./images/head.png'" alt="" />
       </div>
       <div class="Info_link">
         <a href="https://www.instagram.com/deng_j.y/" target="_blank">
@@ -23,7 +23,7 @@
 
     <div class="Info_Content">
       <button class="InfoBtn" @click="showchange">
-        <img src="/right-arrow.svg" alt="" />
+        <img v-lazy="arrowsvg" alt="" />
       </button>
       <div v-if="Infochange === 0" class="Info_box">
         <div class="contentBox">
@@ -87,6 +87,8 @@ export default {
     return {
       InfoShow: "first",
       Infochange: 0,
+      headImage: "./images/head.png",
+      arrowsvg: "./right-arrow.svg",
     };
   },
   components: {

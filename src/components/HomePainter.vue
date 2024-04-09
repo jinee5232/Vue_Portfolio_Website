@@ -31,7 +31,7 @@
         >
           <!-- <a :href="item.url" target="_blank"> -->
           <div class="card-imgbox">
-            <img :src="item.img" alt="Card Image" class="card-img" />
+            <img v-lazy="item.img" alt="Card Image" class="card-img" />
           </div>
           <!-- </a> -->
         </swiper-slide>
@@ -41,11 +41,8 @@
         <div class="card-btn">
           <span class="btnmove">see more</span>
           <div class="btncircle">
-            <img class="arrow1" src="/right-arrow.svg" alt="" /><img
-              class="arrow2"
-              src="/right-arrow.svg"
-              alt=""
-            />
+            <img class="arrow1" v-lazy="'./right-arrow.svg'" alt="" />
+            <img class="arrow2" v-lazy="'./right-arrow.svg'" alt="" />
           </div>
         </div>
       </router-link>

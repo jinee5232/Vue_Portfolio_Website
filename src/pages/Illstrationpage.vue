@@ -2,7 +2,7 @@
   <div class="Illstion_bg">
     <div class="productBox">
       <div class="product" v-for="(item, index) in ItemData" :key="index">
-        <img :src="item.img" alt="" />
+        <img v-lazy="item.img" alt="" />
         <div class="MaskInfo">
           <span>{{ item.name }}</span>
         </div>

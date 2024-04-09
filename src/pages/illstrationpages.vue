@@ -2,7 +2,7 @@
   <div class="Illstion_bg">
     <div class="IllstionType">
       <router-link to="/illstration/poster"
-        ><img src="/images/postertype.png" alt="" />
+        ><img v-lazy="postertypeImg" alt="" />
         <div class="Illstion_Info">
           <h3>Poster</h3>
           <span>過去製作的各式校內平面海報</span>
@@ -11,7 +11,7 @@
     </div>
     <div class="IllstionType">
       <router-link to="/illstration/procreate"
-        ><img src="/images/painttype.png" alt="" />
+        ><img v-lazy="painttypeImg" alt="" />
         <div class="Illstion_Info">
           <h3>Procreate</h3>
           <span>過去製作的各式電繪作品</span>
@@ -20,7 +20,7 @@
     </div>
     <div class="IllstionType">
       <router-link to="/illstration/Logo&Icon"
-        ><img src="/images/logotype.png" alt="" />
+        ><img v-lazy="postertypeImg" alt="" />
         <div class="Illstion_Info">
           <h3>Logo/Icon</h3>
           <span>過去製作的各種Logo圖標，以及Icon</span>
@@ -30,7 +30,15 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      logotypeImg: "./images/logotype.png",
+      painttypeImg: "./images/painttype.png",
+      postertypeImg: "./images/postertype.png",
+    };
+  },
+};
 </script>
 <style scoped>
 .Illstion_bg {
