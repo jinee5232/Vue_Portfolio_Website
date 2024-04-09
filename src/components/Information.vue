@@ -111,6 +111,9 @@ export default {
 };
 </script>
 <style scoped>
+*:focus {
+  outline: none;
+}
 .personal_Info {
   overflow: hidden;
   box-sizing: border-box;
